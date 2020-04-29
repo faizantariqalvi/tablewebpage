@@ -1,0 +1,23 @@
+table{
+    width: 600px;
+    margin: 30px auto;
+    border-collapse: collapse;
+    empty-cells: hide;
+    padding-left: 20px;
+}
+.table{
+    empty-cells: hide;
+}
+tr:nth-child(even){
+    background-color: red;
+}
+tr:hover{
+    background-color: royalblue;
+}
+th, td{
+    border: 1px solid gray;
+    padding: 20px;
+}
+.hde{
+    empty-cells: hide;
+}
